@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{ef9f953e-c13d-4b43-8dfa-2b3ce5653fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\CNeuralNetwork">
+      <UniqueIdentifier>{15dc8164-ac55-464c-9123-f4088d37d36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\CVector">
+      <UniqueIdentifier>{07f57080-82f9-49e0-8531-71c985227d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\CMemPool">
+      <UniqueIdentifier>{cbd4bc1d-ab2c-46c1-af73-9e84ea3c30c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\%40Libraries\CNeuralNetwork\CNeuralNetwork.cpp">
+      <Filter>Libraries\CNeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\%40Libraries\CMemPool\CMemPool.Cpp">
+      <Filter>Libraries\CMemPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Cases.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\%40Libraries\CNeuralNetwork\CNeuralNetwork.h">
+      <Filter>Libraries\CNeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\%40Libraries\CVector\CVector.H">
+      <Filter>Libraries\CVector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\%40Libraries\CMemPool\CMemPool.H">
+      <Filter>Libraries\CMemPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Cases.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
