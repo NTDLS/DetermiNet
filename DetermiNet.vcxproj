@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -13,16 +13,19 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{009611B4-8AF4-4D62-87A4-7EFE9EE83A9B}</ProjectGuid>
     <RootNamespace>NeuralNetworkv2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -81,16 +84,96 @@
     <CustomBuildStep Include="neuralNetworkTrainer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\%40Libraries\CMemPool\CMemPool.Cpp" />
-    <ClCompile Include="..\%40Libraries\CNeuralNetwork\CNeuralNetwork.cpp" />
     <ClCompile Include="Cases.cpp" />
+    <ClCompile Include="CNeuralNetwork\CNeuralNetwork.cpp" />
     <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Base64.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_CommandLineParser.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Conversion.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_CRC32.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_DateTime.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Debug.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_File.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Graphics.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_HighPrecisionTimer.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_InsecureInterface.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_IntegerStack.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_IsolationLock.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_KeyGeneration.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_ListBox.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_ListView.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Math.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Memory.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_MemoryPool.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Menu.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Network.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Queue.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Registry.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_SHA1.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Stack.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_String.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_StringBuilder.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_System.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Trace.cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Types.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_UIntegerStack.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_URLEncoding.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_Windows.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_XMLReader.Cpp" />
+    <ClCompile Include="NSWFL\NSWFL_XMLWriter.Cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\%40Libraries\CMemPool\CMemPool.H" />
-    <ClInclude Include="..\%40Libraries\CNeuralNetwork\CNeuralNetwork.h" />
-    <ClInclude Include="..\%40Libraries\CVector\CVector.H" />
     <ClInclude Include="Cases.h" />
+    <ClInclude Include="CNeuralNetwork\CNeuralNetwork.h" />
+    <ClInclude Include="NSWFL\NSWFL.h" />
+    <ClInclude Include="NSWFL\NSWFL_Base64.h" />
+    <ClInclude Include="NSWFL\NSWFL_CommandLineParser.H" />
+    <ClInclude Include="NSWFL\NSWFL_Conversion.H" />
+    <ClInclude Include="NSWFL\NSWFL_CRC32.H" />
+    <ClInclude Include="NSWFL\NSWFL_DateTime.H" />
+    <ClInclude Include="NSWFL\NSWFL_Debug.H" />
+    <ClInclude Include="NSWFL\NSWFL_DictonaryString.H" />
+    <ClInclude Include="NSWFL\NSWFL_DictonaryT.H" />
+    <ClInclude Include="NSWFL\NSWFL_File.H" />
+    <ClInclude Include="NSWFL\NSWFL_Graphics.H" />
+    <ClInclude Include="NSWFL\NSWFL_HighPrecisionTimer.h" />
+    <ClInclude Include="NSWFL\NSWFL_InsecureInterface.H" />
+    <ClInclude Include="NSWFL\NSWFL_IntegerStack.H" />
+    <ClInclude Include="NSWFL\NSWFL_IsolationLock.h" />
+    <ClInclude Include="NSWFL\NSWFL_KeyGeneration.H" />
+    <ClInclude Include="NSWFL\NSWFL_ListBox.H" />
+    <ClInclude Include="NSWFL\NSWFL_ListView.H" />
+    <ClInclude Include="NSWFL\NSWFL_Math.H" />
+    <ClInclude Include="NSWFL\NSWFL_Memory.H" />
+    <ClInclude Include="NSWFL\NSWFL_MemoryPool.H" />
+    <ClInclude Include="NSWFL\NSWFL_Menu.H" />
+    <ClInclude Include="NSWFL\NSWFL_Network.h" />
+    <ClInclude Include="NSWFL\NSWFL_Queue.H" />
+    <ClInclude Include="NSWFL\NSWFL_Registry.H" />
+    <ClInclude Include="NSWFL\NSWFL_SHA1.h" />
+    <ClInclude Include="NSWFL\NSWFL_Stack.H" />
+    <ClInclude Include="NSWFL\NSWFL_String.H" />
+    <ClInclude Include="NSWFL\NSWFL_StringBuilder.H" />
+    <ClInclude Include="NSWFL\NSWFL_StringBuilderArray.H" />
+    <ClInclude Include="NSWFL\NSWFL_System.H" />
+    <ClInclude Include="NSWFL\NSWFL_Trace.H" />
+    <ClInclude Include="NSWFL\NSWFL_Types.H" />
+    <ClInclude Include="NSWFL\NSWFL_UIntegerStack.H" />
+    <ClInclude Include="NSWFL\NSWFL_URLEncoding.H" />
+    <ClInclude Include="NSWFL\NSWFL_VectorBinary.H" />
+    <ClInclude Include="NSWFL\NSWFL_VectorString.H" />
+    <ClInclude Include="NSWFL\NSWFL_VectorT.H" />
+    <ClInclude Include="NSWFL\NSWFL_Windows.H" />
+    <ClInclude Include="NSWFL\NSWFL_XML.H" />
+    <ClInclude Include="NSWFL\NSWFL_XMLReader.H" />
+    <ClInclude Include="NSWFL\NSWFL_XMLWriter.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CNeuralNetwork\LICENSE" />
+    <None Include="CNeuralNetwork\README.md" />
+    <None Include="NSWFL\.gitignore" />
+    <None Include="NSWFL\LICENSE" />
+    <None Include="NSWFL\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

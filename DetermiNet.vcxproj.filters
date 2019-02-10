@@ -15,39 +15,272 @@
     <Filter Include="Libraries\CNeuralNetwork">
       <UniqueIdentifier>{15dc8164-ac55-464c-9123-f4088d37d36f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Libraries\CVector">
-      <UniqueIdentifier>{07f57080-82f9-49e0-8531-71c985227d94}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Libraries\CMemPool">
-      <UniqueIdentifier>{cbd4bc1d-ab2c-46c1-af73-9e84ea3c30c2}</UniqueIdentifier>
+    <Filter Include="Libraries\NSWFL">
+      <UniqueIdentifier>{332e9c54-6802-4cd2-9986-b699406c2067}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\%40Libraries\CNeuralNetwork\CNeuralNetwork.cpp">
-      <Filter>Libraries\CNeuralNetwork</Filter>
-    </ClCompile>
-    <ClCompile Include="..\%40Libraries\CMemPool\CMemPool.Cpp">
-      <Filter>Libraries\CMemPool</Filter>
-    </ClCompile>
     <ClCompile Include="Cases.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Entry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CNeuralNetwork\CNeuralNetwork.cpp">
+      <Filter>Libraries\CNeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Base64.cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_CommandLineParser.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Conversion.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_CRC32.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_DateTime.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Debug.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_File.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Graphics.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_HighPrecisionTimer.cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_InsecureInterface.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_IntegerStack.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_IsolationLock.cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_KeyGeneration.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_ListBox.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_ListView.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Math.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Memory.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_MemoryPool.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Menu.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Network.cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Queue.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Registry.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_SHA1.cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Stack.cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_String.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_StringBuilder.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_System.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Trace.cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Types.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_UIntegerStack.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_URLEncoding.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_Windows.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_XMLReader.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
+    <ClCompile Include="NSWFL\NSWFL_XMLWriter.Cpp">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\%40Libraries\CNeuralNetwork\CNeuralNetwork.h">
-      <Filter>Libraries\CNeuralNetwork</Filter>
-    </ClInclude>
-    <ClInclude Include="..\%40Libraries\CVector\CVector.H">
-      <Filter>Libraries\CVector</Filter>
-    </ClInclude>
-    <ClInclude Include="..\%40Libraries\CMemPool\CMemPool.H">
-      <Filter>Libraries\CMemPool</Filter>
-    </ClInclude>
     <ClInclude Include="Cases.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="CNeuralNetwork\CNeuralNetwork.h">
+      <Filter>Libraries\CNeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL.h">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Base64.h">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_CommandLineParser.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Conversion.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_CRC32.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_DateTime.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Debug.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_DictonaryString.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_DictonaryT.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_File.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Graphics.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_HighPrecisionTimer.h">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_InsecureInterface.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_IntegerStack.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_IsolationLock.h">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_KeyGeneration.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_ListBox.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_ListView.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Math.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Memory.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_MemoryPool.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Menu.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Network.h">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Queue.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Registry.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_SHA1.h">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Stack.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_String.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_StringBuilder.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_StringBuilderArray.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_System.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Trace.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Types.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_UIntegerStack.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_URLEncoding.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_VectorBinary.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_VectorString.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_VectorT.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_Windows.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_XML.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_XMLReader.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+    <ClInclude Include="NSWFL\NSWFL_XMLWriter.H">
+      <Filter>Libraries\NSWFL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CNeuralNetwork\LICENSE">
+      <Filter>Libraries\CNeuralNetwork</Filter>
+    </None>
+    <None Include="CNeuralNetwork\README.md">
+      <Filter>Libraries\CNeuralNetwork</Filter>
+    </None>
+    <None Include="NSWFL\.gitignore">
+      <Filter>Libraries\NSWFL</Filter>
+    </None>
+    <None Include="NSWFL\LICENSE">
+      <Filter>Libraries\NSWFL</Filter>
+    </None>
+    <None Include="NSWFL\README.md">
+      <Filter>Libraries\NSWFL</Filter>
+    </None>
   </ItemGroup>
 </Project>
